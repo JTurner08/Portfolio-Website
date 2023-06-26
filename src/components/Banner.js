@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm JT`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Engineer", "Blockchain Developer", "Fintech" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>Technologist offering a strong foundation in software engineering and programming principles across multiple platforms. Expert in integrating objectives with broader business strategies. Excellent ability to work in a collaborative team environment while accomplishing tasks and achieving goals independently. Outstanding communication skills, customer service aptitude, and business acumen. Experienced in object-oriented programming; developing, testing and debugging code as well as designing interfaces.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
